@@ -1,0 +1,43 @@
+CIS 330 midterm 
+
+unix
+
+1. delete all c source and header files in cd - rm -f *.c *.h
+
+2. terminate process - ctrl-c or kill
+
+3. call app "program1.out" redirecting standard in to "test.file" and standard out to "test.output" and standard
+error to "test.error"
+
+program1.out < test.file 1 > test.output 2 > test.error
+
+program1.out < test.file | program2.out
+
+4. mv ./src/ ../src/
+to copy: cp -R ./src/ ../src/
+
+5. cat Makefile
+
+6. chmod +x filename
+or chmod u+x filename for just you
+
+to take away chmod u-x filename
+
+7. ssh user@ix.cs.uoregon.edu
+
+8. create git branh named "DEV_TEST" and check it out
+
+git branch DEV_TEST
+git checkout -b DEV_TEST
+
+9. git add --all or git add --A
+
+10. git commit -m "message" 
+
+11. git push, git pull, git clone  "address"
+
+12.
+
+13. 
+
+14. :quit!
